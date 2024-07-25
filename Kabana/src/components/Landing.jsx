@@ -20,7 +20,9 @@ function Landing() {
             <h3>Developer</h3>
         </div>
         <div>
-        <button className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-black py-2 px-4 border-transparent hover:border-transparent rounded content2">
+        <button 
+        onClick={() => window.location.href='https://www.linkedin.com/in/umeshjoshi22/'}
+        className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-black py-2 px-4 border-transparent hover:border-transparent rounded content2">
             About Me
         </button>
         <button>
